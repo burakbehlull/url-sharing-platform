@@ -1,0 +1,13 @@
+@import '../public/sass/base/reset';
+
+:root{
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    display: flex;
+    section {
+        @import '../public/sass/pages/linkarea';
+        @import '../public/sass/pages/profilebar';
+    }
+}
