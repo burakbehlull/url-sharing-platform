@@ -1,5 +1,32 @@
-&#linkarea {
-    flex: 65%;
+&#profilebar {
+    flex: 35%;
 
-    background-color: red;
+    .profileSpace {
+        padding-top: 1em;
+        width: max(15em);
+        height: max(13rem);
+
+
+        img {
+            border-radius: 50%;
+            width: calc(10.5em + 2em);
+            height: 100%;
+        }
+    }
+    .profileAbout{
+        text-align: start;
+        margin-left: .6em;
+        margin-top: 1.3em;
+        h1{
+            color: #1d1c1c;
+            font-weight: 700;
+            font-size: 2.4em;
+        }
+        p {
+            padding-top: .4em;
+            color: #565656;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+    }
 }

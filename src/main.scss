@@ -5,9 +5,20 @@
 }
 
 main {
+    height: 100vh;
+    width: 100%;
+    padding: 3rem 5rem;
     display: flex;
+
     section {
         @import '../public/sass/pages/linkarea';
         @import '../public/sass/pages/profilebar';
+    }
+}
+
+@media (max-width: 640px){
+    main {
+        padding: 1.3rem;
+        flex-direction: column;
     }
 }
