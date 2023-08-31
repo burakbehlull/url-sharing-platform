@@ -1,8 +1,50 @@
 &#linkarea {
     flex: 65%;
+    margin-left: 2em;
 
-    background-color: red;
+    .spacebox{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
 
 
+
+        gap: 10vh;
+        .linkbox{
+            display: flex;
+            flex-direction: column;
+
+            padding: 2em 3.4em;
+
+            background-color: #F5FAFE;
+            border: 1px solid #dad6d6;
+            border-radius: 5px;
+            &:hover {
+                background-color: #E9F4FC;
+                cursor: pointer;
+            }
+            img {
+                width: 7vh;
+                height: 2rem;
+            }
+            h2{
+                padding-top: .5rem;
+                color: #161616;
+                font-size: 1em;
+            }
+            span {
+                color: #dad6d6;
+                font-size: .7em;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 640px){
+    &#linkarea {
+        margin-top: 1em;
+        margin-left: 0;
+    }
 }
 

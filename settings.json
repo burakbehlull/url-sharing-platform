@@ -1,0 +1,32 @@
+{
+    "settings": [
+        {
+            "socialName": "Twitter",
+            "description": "xd",
+            "socialUri": "https://x.com/iambuvak",
+            "imageUri": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png?20220821125553",
+            "address":""
+        },
+        {
+            "socialName": "",
+            "description": "",
+            "socialUri": "",
+            "imageUri": "",
+            "address": ""
+        },
+        {
+            "socialName": "",
+            "description": "",
+            "socialUri": "",
+            "imageUri": "",
+            "address": "www.linkedin.com"
+        },
+        {
+            "socialName": "",
+            "description": "",
+            "socialUri": "",
+            "imageUri": "",
+            "address": "www.linkedin.com"
+        }
+    ]
+}

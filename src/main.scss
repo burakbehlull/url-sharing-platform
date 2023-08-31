@@ -11,8 +11,8 @@ main {
     display: flex;
 
     section {
-        @import '../public/sass/pages/linkarea';
         @import '../public/sass/pages/profilebar';
+        @import '../public/sass/pages/linkarea';
     }
 }
 
