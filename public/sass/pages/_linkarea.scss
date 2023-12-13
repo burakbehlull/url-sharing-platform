@@ -1,33 +1,39 @@
 &#linkarea {
+	
     flex: 65%;
     margin-left: 2em;
 
     .spacebox{
+		margin-top: 5vh;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
-
-
+		justify-content: center;
         gap: 10vh;
+		
         .linkbox{
             display: flex;
             flex-direction: column;
-
-            padding: 2em 3.4em;
+			max-width: 100%;
+			
+            
+			padding: 2em 4em;
 
             background-color: #F5FAFE;
             border: 1px solid #dad6d6;
             border-radius: 5px;
+				
             &:hover {
                 background-color: #E9F4FC;
                 cursor: pointer;
             }
             img {
-                width: 7vh;
-                height: 2rem;
+				
+                max-width: 13vh;
+                height: 2.7rem;
             }
             h2{
+				text-align: center;
                 padding-top: .5rem;
                 color: #161616;
                 font-size: 1em;
@@ -43,6 +49,7 @@
 
 @media (max-width: 640px){
     &#linkarea {
+		padding: .8em;
         margin-top: 1em;
         margin-left: 0;
     }
